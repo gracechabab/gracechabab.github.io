@@ -1,0 +1,234 @@
+#mon_menu{
+list-style: none;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+transition: .10s background;
+}
+#mon_menu a {
+  display: inline-block;
+  width: 18%;
+  text-decoration: none;
+  padding: 0.1%;
+  text-align: center;
+  font-family: cursive,"Brush Script MT";
+}
+
+#mon_menu a:link, #mon_menu a:visited {
+  color: rgb(113 74 36);
+  margin: auto;
+  font-size: 1.5em;
+}
+
+#mon_menu a:hover, #mon_menu a:active{
+color: rgb(255,255,255);
+cursor: crosshair;
+background-color: rgb(153, 102, 51);
+}
+
+nav{
+padding:10px;
+margin: 0px;
+height: 50px;
+background-color: rgb(183, 143, 101);
+display: flex;
+}
+.sidebar {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(191 191 191 / 45%);
+  overflow-x: hidden;
+  padding-top: 20px;
+  width:25%;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #484848;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: rgb(113 74 36);
+}
+
+body {
+  padding: 0px 10px;
+  margin-left:25%;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+h1 {
+color: rgb(102, 51, 0);
+text-align: center;
+font-family: monospace,"Lucida Console";
+font-weight: bold;
+font-size: 5em;
+}
+h2 {
+  color: rgb(113, 74, 36);
+  text-decoration-color: rgb(102, 51, 0);
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-align: center;
+  font-size: 2em;
+  font-family: cursive, "Brush Script MT, Brush Script Std";
+}
+h3 {
+  color: rgb(113, 74, 36);
+  font-size: 1.3em;
+  font-family: "Papyrus", Cusrsive;
+}
+h4 {
+  font-size: 1.3em;
+  color: rgb(113, 74, 36);
+  font-family: "Garamond", serif;
+}
+.elements{
+  color: rgb(113, 74, 36);
+  text-decoration-color: rgb(102, 51, 0);
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-align: left;
+  font-size: 2em;
+  font-family: cursive, "Brush Script MT, Brush Script Std";
+}
+.violon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+#introduction, #Histoire, #Gamme, #Les_élements, #Taille, #Accessoires, #celebrities, #prices {
+  text-align: left;
+  font-family: sans-serif, "Raleway";
+  font-size: 1.1em;
+}
+.violin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 1.4em;
+}
+th {
+  background-color: rgb(183, 143, 101);
+  color: black;
+}
+.histoireduviolon {
+  font-size: 1.2em;
+  font-style: oblique;
+  font-family: "Lucida Handwriting", Cusrsive;
+  color: rgb(183, 143, 101);
+}
+.more {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(153, 102, 51);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.more:hover, .more:active {
+  background-color: rgb(153, 102, 51);
+  color: white;
+}
+.link {
+  list-style: none;
+}
+.link a {
+  background-color: white;
+  color: rgb(153, 102, 51);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+}
+.image {
+  width:25%;
+}
+.doyouknow {
+  width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 50px;
+  float: right;
+  font-style: italic;
+  background-color: rgb(191 191 191 / 45%);
+}
+.annotation {
+  display: block;
+  padding-left: 20%;
+}
+.violinists {
+  color: rgb(113, 74, 36);
+  text-decoration-color: rgb(102, 51, 0);
+  text-decoration: underline;
+  font-size: 1.6em;
+  font-family:  "Papyrus", Cusrsive;
+}
+.image1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+.exp {
+  color: black;
+  font-size: 1.1em;
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+  font-family: "Courier New", Monospace;
+  font-size: 1em;
+}
+ol {
+  list-style: none;
+}
+.morceau {
+  font-family:  "Papyrus", Cusrsive;
+}
+footer {
+  width: 100%;
+  background-color: rgb(153, 102, 51);
+  color: white;
+  text-align: center;
+}
+.fa {
+  padding: 10px;
+  font-size: 1.1em;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  cursor: cell;
+}
+.fa-facebook {
+  background: #125688;
+  color: white;
+}
+.fa-instagram {
+  background: #fb3958;
+  color: white;
+}
+.email {
+  color: white;
+}

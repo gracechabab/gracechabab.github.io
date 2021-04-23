@@ -3,37 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Mon projet : violon</title>
+    <link rel="stylesheet" href="./css/mon-style.css">
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="mon_menu">
+        <a href="./index.html">Home</a>
         <a href="./les-elements.html">Les élements</a>
         <a href="./list-of-violinists.html">Liste des violonistes</a>
         <a href="./aboutme.html">About Me</a>
       </nav>
+  <div class="sidebar">
+        <a href="#introduction">Introduction</a>
+        <a href="#Histoire">Histoire</a>
+        <a href="#Gamme">Gamme</a>
+        <a href="#Les_élements">Les élements</a>
+        <a href="#Taille">Taille</a>
+        <a href="#Accessoires">Accessoires</a>
+        <a href="#celebrities">Les plus célèbres violonistes</a>
+        <a href="#prices">Prix des violons</a>
+  </div>
     </header>
-
-<h1>le violon</h1>
-<nav>
-  <ul>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#Histoire">Histoire</a></li>
-    <li><a href="#Gamme">Gamme</a></li>
-    <li><a href="#Les_élements">Les élements</a></li>
-    <li><a href="#Taille">Taille</a></li>
-    <li><a href="#Accessoires">Accessoires</a></li>
-    <li><a href="#celebrities">Les plus célèbres violonistes</a></li>
-    <li><a href="#prices">Prix des violons</a></li>
-  </ul>
-</nav>
-
-    <main>
-      <h1> Le violon</h1>
-    </main>
-
-    <div id="introduction">
-      <h2>À propos du violon </h2>
+  <main>
+    <h1> Le violon</h1>
+      <div class="violon">
       <img src="./photos/Stolen-Guadagnini-violin.jpg" alt="violon">
+      </div>
+
+
+    <div id="introduction" >
+      <h2>À propos du violon </h2>
+
         <p>Le violon est un chordophone en bois (instrument à cordes). Il est le plus petit et le plus aigu de la famille des instruments à cordes. Il  a généralement quatre cordes à la quinte. Il peut être joué en frottant l’archet aux cordes ou pinçant les cordes avec les doigts (<em>pizzicato</em>). <br /><br />
          Les violons sont les plus importants dans la musique classique occidentale et dans de nombreuses variétés de musique folklorique, mais ils sont également fréquemment utilisés dans la musique country, le jazz et même la musique rock.<br>En orchestre, les violons sont divisés en 2 sections, 1er violons et 2nd violons. Le chef des 1ers violons (the leader of first violins) est également nommé le chef de l’orchestre (concert-master).</p>
     </div>
@@ -41,33 +41,35 @@
         <h2>Histoire</h2>
         <p>On pense que le premier violon a été construit vers  1555 par Andrea  Amati, bien que personne ne soit sûr de l'année exacte. Les anciennes versions de l'instrument n'avaient que trois cordes et étaient connues sous le nom de «Violetta».
         Il semble que le violon ait emprunté des caractéristiques à trois instruments existants :<em>le rebec</em>, en usage depuis le XIVe siècle (lui-même dérivé du <em>rebab</em> de la musique arabe), <em>la vièle</em> et <em>la lira da braccio</em>.</p>
-      <p>
-        rabab <br> <img src="./photos/rabab.jpg" alt="rabab"><br /><br />
-        vièle <br> <img src="./photos/vièle.jpg" alt="vièle"><br /><br />
-        lira da braccio <br> <img src="./photos/Lira_da_braccio.jpg" alt="Lira da braccio"> <br /><br />
-      </p>
+        <img src="./photos/rabab.jpg" alt="rabab">
+        <p class="histoireduviolon">rabab</p><br>
+        <img src="./photos/vièle.jpg" alt="vièle">
+        <p class="histoireduviolon">vièle</p>
+        <img src="./photos/Lira_da_braccio.jpg" alt="Lira da braccio">
+        <div class="text-block">
+        <p class="histoireduviolon">lira da braccio </p>
     </div>
     <div id="Gamme">
         <h2>Gamme</h2>
         <p>Un violon peut jouer du sol en dessous du do médian, connu sous le nom de G3, jusqu'à un mi aigu de deux octaves au-dessus de sa corde la plus élevée, connue sous le nom d’E7. Chacune des quatre cordes est accordée à une cinquième d'intervalle, constituant les notes Sol, Ré, A et E. Le son est produit lorsque les vibrations des cordes résonnent à l'intérieur du corps en bois de l'instrument.</p>
-        <img src="./photos/gamme_violon.jpg" alt="gamme">
+        <img src="./photos/gamme_violon.jpg" alt="gamme" class="violin">
     </div>
     <div id="Les_élements">
         <h2>Les éléments de composition du violon : </h2>
-        <img src="./photos/elements_du_violon.jpg" alt="les éléments de composition du violon">
+        <img src="./photos/elements_du_violon.jpg" alt="les éléments de composition du violon" class="violin">
         <p>Le violon est constitué de 70 à 85 pièces, collées ou emboîtées, qui  forment trois grandes parties: <strong>le corps</strong>, <strong>la manche</strong> et <strong>la tête</strong>.</p>
-        <a href="./les-elements.html" target="_blank">Learn More</a>
+        <a href="./les-elements.html" target="_blank" class="more">Learn More</a>
     </div>
 
     <div id="Taille">
       <h2>Taille</h2>
-      <img src="./photos/taille_des_violons.jpg" alt="taille des violons"><br>
+      <img src="./photos/taille_des_violons.jpg" alt="taille des violons" class="violin"><br>
     </div>
   <table>
   <tr>
-     <th scope="col">Taille</th>
-     <th scope="col">Age</th>
-     <th scope="col">Longueur<br /> (cou/poignet)</th>
+     <th>Taille</th>
+     <th>Age</th>
+     <th>Longueur<br /> (cou/poignet)</th>
   </tr>
   <tr>
     <td>1/16 (seizième)</td>
@@ -112,7 +114,7 @@
   <p>La colophane tire son nom d’une ville de la Grèce antique, baptisée « Kolophôn », d’où l’on extrayait des arbres résineux, par la distillation de plusieurs éléments,<strong> le précieux résidu</strong>.</p>
   <p>Tous les musiciens d’instruments à cordes frottées (contrebasse, violoncelle, alto, violon) sont amenés à l’appliquer sur leur archet, car <strong> sans elle, les crins glissent trop et ne produisent aucun son ou un léger murmure.</strong> Concrètement, la colophane crée une accroche sur les cordes, liée à l’origine du son produit</p>
     <img src="./photos/Pirastro_Rosin_.jpg" alt="colophane Pirastro Rosin_.">
-    <img src="./photos/gustave-bernardel.jpg" alt="gustave-bernardel">
+    <img src="./photos/gustave-bernardel.jpg" alt="gustave-bernardel" >
   <br><br>
 <h3>Sourdine(Mute)</h3>
   <p>Comme son nom le suggère, la sourdine vise à <strong>réduire la puissance sonore du violon</strong> : généralement fixé sur le chevalet, cet accessoire permet de réduire l'émission sonore de 20 à 80 %. Concrètement, une fois correctement placé, il altère le timbre et absorbe les vibrations des cordes, pour diminuer le volume émis par la caisse de résonance.</p>
@@ -127,12 +129,13 @@
     </dl>
   <p>À noter que si la première peut atténuer le son jusqu'à 80 %, la seconde ne le réduit qu'à hauteur de 20 % environ, au maximum.</p><br>
 <h3>Coussin(shoulder rest)</h3>
-  <p>le violon repose sur la clavicule du violoniste.Puisque le violon est en bois, un matériau par nature très dur, celui-ci risque de rendre le jeu plutôt désagréable. C'est ainsi que le violoniste peut insérer un coussin, ou une épaulière entre sa clavicule et le bouton de son instrument.</p>
+<img src="./photos/coussin.jpg" alt="coussin"><br>
+  <p>le violon repose sur la clavicule du violoniste. Puisque le violon est en bois, un matériau par nature très dur, celui-ci risque de rendre le jeu plutôt désagréable. C'est ainsi que le violoniste peut insérer un coussin, ou une épaulière entre sa clavicule et le bouton de son instrument.</p>
   <p>Un bon coussin de violon s'installera donc sur la clavicule gauche du violoniste afin de réceptionner le violon et manier l'archet - de la main droite, conventionnellement - avec aisance.</p>
   <p>L'épaulière, ou coussin de violon se présente sous la forme d'une barre ondulée et rigide, molletonnée et traversant tout le dos du violon, qui vient épouser la forme de la clavicule du violoniste.</p>
   <p>Il faut savoir que le port d'une épaulière ajoute de la difficulté à maintenir l'instrument et à jouer avec justesse puisque l'accès aux cordes avec les doigts de la main gauche est rendu plus complexe.
 Sans épaulière, l'intensité sonore du violon se trouve enrichie, plus profonde et plus naturelle.</p><br>
-  <img src="./photos/coussin.jpg" alt="coussin">
+
 <h3>Métronome</h3>
   <img src="./photos/métronome.jpg" alt="métronome">
   <p>Inventé par l’Autrichien Johann Nepomuk Maelzel, le métronome traditionnel sert à <strong>indiquer le bon tempo</strong> – autrement dit, la vitesse à laquelle le morceau doit être joué. Une indication matérialisée sur la partition par une noire suivie du signe égale et d’un chiffre.
@@ -151,11 +154,12 @@ Sur le marché, au-delà du modèle traditionnel de métronome, il existe des ve
   <h2>Les plus célèbres violonistes : </h2>
   <h4>Les Grands violonistes du XXe siècle:</h4><br>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/UZTtTCR-Smk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-  <a href="./list-of-violinists.html" target="_blank">Learn More</a>
+  <a href="./list-of-violinists.html" target="_blank" class="more">Learn More</a>
 </div>
 <div id="prices">
     <h2>Prix des violons:combien coûtent les violons?</h2>
-    <p><strong>Débutant: </strong>Entre 200 et 400 dollars, vous pouvez trouver des violons d'étude de bonne qualité. Leur sonorité est tout-à-fait acceptable pour les grands débutants, même s'il est parfois nécessaire de changer les cordes d'origine pour des cordes de meilleure qualité.</p>
+    <h3>Débutant:</h3>
+    <p>Entre 200 et 400 dollars, vous pouvez trouver des violons d'étude de bonne qualité. Leur sonorité est tout-à-fait acceptable pour les grands débutants, même s'il est parfois nécessaire de changer les cordes d'origine pour des cordes de meilleure qualité.</p>
     <h3>Niveau intermédiaire : Entre le violon d'étude et le violon de maître </h3>
     <p>A ce niveau intermédiaire, le violon convient aussi bien aux débutants exigeants qu'aux musiciens plus avancés. Ils sont d'une qualité supérieure, tant dans leurs finitions que dans leurs sonorités. Leurs prix varient énormément selon leur origine : de 500 à 2000 dollars !</p>
     <h3>Niveau professionnel : Les violons de maître</h3>
@@ -164,15 +168,21 @@ Sur le marché, au-delà du modèle traditionnel de métronome, il existe des ve
 <h4>Ecouter la différence entre $69 vs $10,000,000 Stradivarius Violon- Ray Chen:</h4> <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bd40IQaLAzE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 </div>
-<h2>Sais-tu que?</h2>
-  <img src="./photos/Stradivarius_Ole_Bull_violin.jpg" alt="strad violin">
+
+<img src="./photos/Stradivarius_Ole_Bull_violin.jpg" alt="strad violin" class="image">
+<div class="doyouknow">
+  <h2>Sais-tu que?</h2>
   <p>Un violon <strong>Stradivarius</strong> détient le record du monde de l'instrument de musique le plus cher vendu aux enchères, récoltant<em> 16 millions de dollars</em> à Londres en juin 2011 pour recueillir des fonds de secours aux sinistrés du tsunami.</p> <br>
-  <a href="https://blog.allegromusique.fr/le-mythe-des-stradivarius " target="_blank">Le mythe des Stradivarius</a><br><br>
-</body>
+</div> <br>
+  <a href="https://blog.allegromusique.fr/le-mythe-des-stradivarius " target="_blank" class="more">Le mythe des Stradivarius</a><br><br>
+</main>
+
 
 <footer>
-  <p>Auteur: Grace Chabab</p>
-  <p><a href="mailto:gracechabab1@hotmail.com">gracechabab1@hotmail.com</a></p>
+  <p>Auteur: Grace Chabab</p> <br>
+  <a href="https://www.instagram.com/grace_chabab/" target="_blank" rel="nofollow" sl-processed="1" class="fa fa-instagram">Instagram</a>
+  <a href="https://www.facebook.com/grace.chabab" target="_blank" rel="nofollow" sl-processed="1" class="fa fa-facebook">Facebook</a><br><br>
+  <p><a href="mailto:gracechabab1@hotmail.com" class="email">gracechabab1@hotmail.com</a></p>
 </footer>
-
+</body>
 </html>
